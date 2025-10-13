@@ -1,0 +1,51 @@
+
+================================================================================
+TARGET: target_0
+================================================================================
+[XGB] Fold 1: {'MAE': 0.010927124079082366, 'RMSE': np.float64(0.019158447139537994), 'MAPE(%)': np.float64(4336670.624559823), 'sMAPE(%)': np.float64(138.79446918794778), 'R2': -0.04395972070373122, 'fold': 1}
+[XGB] Fold 2: {'MAE': 0.027446514545804702, 'RMSE': np.float64(0.03193921868988246), 'MAPE(%)': np.float64(14765587.19956954), 'sMAPE(%)': np.float64(166.04949090762145), 'R2': -12.787444631164352, 'fold': 2}
+[XGB] Fold 3: {'MAE': 0.012293784986413045, 'RMSE': np.float64(0.01572817583031001), 'MAPE(%)': np.float64(357.9528569266651), 'sMAPE(%)': np.float64(138.97637175037315), 'R2': -0.38063762310979143, 'fold': 3}
+[XGB] Fold 4: {'MAE': 0.007442168874487667, 'RMSE': np.float64(0.009214281899519818), 'MAPE(%)': np.float64(725451.0796239701), 'sMAPE(%)': np.float64(152.66339148970937), 'R2': -0.4539630315044103, 'fold': 4}
+[XGB] Fold 5: {'MAE': 0.008825900765474988, 'RMSE': np.float64(0.012269746062163871), 'MAPE(%)': np.float64(1154347.708133735), 'sMAPE(%)': np.float64(148.79092005402754), 'R2': -0.415505806110559, 'fold': 5}
+
+[XGB] OOF metrics (target_0): {'MAE': 0.012245459053491187, 'RMSE': np.float64(0.01802899935498596), 'MAPE(%)': np.float64(3491343.3649054044), 'sMAPE(%)': np.float64(157.17760897124384), 'R2': -1.287090316893786}
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.101979 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 550921
+[LightGBM] [Info] Number of data points in the train set: 307, number of used features: 6127
+[LightGBM] [Info] Start training from score 0.000178
+[LGBM] Fold 1: {'MAE': 0.01094253933612128, 'RMSE': np.float64(0.018761697315640202), 'MAPE(%)': np.float64(2208742.3218619437), 'sMAPE(%)': np.float64(153.69686730624014), 'R2': -0.0011689746767016285, 'fold': 1}
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.207803 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 1238540
+[LightGBM] [Info] Number of data points in the train set: 611, number of used features: 6127
+[LightGBM] [Info] Start training from score 0.000183
+[LGBM] Fold 2: {'MAE': 0.011345931695676376, 'RMSE': np.float64(0.01354290853883601), 'MAPE(%)': np.float64(5472371.48562619), 'sMAPE(%)': np.float64(148.36546014770477), 'R2': -1.4789005068497723, 'fold': 2}
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.244437 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 1551735
+[LightGBM] [Info] Number of data points in the train set: 915, number of used features: 6127
+[LightGBM] [Info] Start training from score 0.000466
+[LGBM] Fold 3: {'MAE': 0.012549055783066053, 'RMSE': np.float64(0.016246828051472057), 'MAPE(%)': np.float64(295.21747162248084), 'sMAPE(%)': np.float64(147.80660584403208), 'R2': -0.47319474482071033, 'fold': 3}
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.201692 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 1551730
+[LightGBM] [Info] Number of data points in the train set: 1219, number of used features: 6127
+[LightGBM] [Info] Start training from score 0.000301
+[LGBM] Fold 4: {'MAE': 0.009035609496828426, 'RMSE': np.float64(0.011100548581760742), 'MAPE(%)': np.float64(1654664.5280075846), 'sMAPE(%)': np.float64(153.08890515850393), 'R2': -1.1101788136143593, 'fold': 4}
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.339935 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 1551620
+[LightGBM] [Info] Number of data points in the train set: 1523, number of used features: 6127
+[LightGBM] [Info] Start training from score 0.000390
+[LGBM] Fold 5: {'MAE': 0.01050426971431751, 'RMSE': np.float64(0.014633837130743569), 'MAPE(%)': np.float64(6517479.365875133), 'sMAPE(%)': np.float64(153.90067370748926), 'R2': -1.0135246020654787, 'fold': 5}
+
+[LGBM] OOF metrics (target_0): {'MAE': 0.010155881321429364, 'RMSE': np.float64(0.014249154379011888), 'MAPE(%)': np.float64(2637936.7199387588), 'sMAPE(%)': np.float64(159.10508357846027), 'R2': -0.4286250216371714}
+[ARIMA] OOF-like metrics (target_0): {'MAE': 0.009101206247213754, 'RMSE': np.float64(0.012986679812085873), 'MAPE(%)': np.float64(1930567.5384494301), 'sMAPE(%)': np.float64(154.13851058757214), 'R2': -0.1866874104754377}
+Plotting skipped due to: index 1828 is out of bounds for axis 0 with size 1827
+
+================================================================================
+TARGET: target_1
+================================================================================
+[XGB] Fold 1: {'MAE': 0.015967285396088292, 'RMSE': np.float64(0.023726198723340964), 'MAPE(%)': np.float64(164.7606175992559), 'sMAPE(%)': np.float64(149.0904852756936), 'R2': -0.040049663501257715, 'fold': 1}
+[XGB] Fold 2: {'MAE': 0.01247390994894954, 'RMSE': np.float64(0.01574028132768076), 'MAPE(%)': np.float64(246.1305478429631), 'sMAPE(%)': np.float64(148.00878309212908), 'R2': -0.23461094810397354, 'fold': 2}
